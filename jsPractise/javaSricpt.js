@@ -1,21 +1,19 @@
-let string = `SANJEET`;
-let strins=`sanjeet`;
-
-let str = string.toLowerCase();
-let str2=strins.toUpperCase();
-
-let str3=string.indexOf(`JEET`);
-
-console.log(str);
-console.log(str2);
-console.log(str3);
+let arr=["jaunary","march","july","august"];
 
 
+console.log(arr);
 
-let msg = "   hello   ";
+console.log(arr.shift());
+console.log(arr.shift());
+console.log(arr.shift());
 
-console.log(msg.trim().toUpperCase());
+console.log(arr);
 
-let name= "apnaCollege";
+console.log(arr.unshift("march"));
+console.log(arr.unshift("june"));
+console.log(arr.unshift("july"));
 
-console.log(name.slice(4).replace("l","t"));
+
+console.log(arr);
+
+
