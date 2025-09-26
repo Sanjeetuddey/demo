@@ -1,19 +1,20 @@
-let arr=["jaunary","march","july","august"];
+let arr = ["january","july","march","august"];
 
-
+console.log(arr.splice(0,1));
+console.log(arr.splice(1,0,"june"));
+ 
 console.log(arr);
+ 
 
-console.log(arr.shift());
-console.log(arr.shift());
-console.log(arr.shift());
+let arr1 = ["c","c++","html","javascript","python","java","c#","sql"];
 
-console.log(arr);
+let reverse = arr1.reverse();
 
-console.log(arr.unshift("march"));
-console.log(arr.unshift("june"));
-console.log(arr.unshift("july"));
+console.log(reverse.indexOf("javascript"));
 
+let tictac=[["X","","O"],["","X",""],["O","","X"]];
 
-console.log(arr);
+console.log(tictac);
+
 
 
