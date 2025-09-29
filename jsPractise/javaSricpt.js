@@ -24,6 +24,8 @@ let ans=arr.slice(-n);
 
 console.log(ans);
 
+//ytutedtgutfyrfugyt
+
 
 
 
