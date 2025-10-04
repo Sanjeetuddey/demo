@@ -1,35 +1,16 @@
-let guess = prompt("please enter the limit");
+        
+// Qs1. Write a JavaScript function that returns array elements larger than a number.
 
-let num = Math.floor(Math.random() * guess)+1;
-console.log(num);
+let arr = [1,2,3,4];
 
 
-let guess1 = prompt("please enter the number of u guess");
-
-while (true) 
-    {
-        if (num==guess1) 
-         {
-                console.log(`congratulation your guess is correst ${num} `);
-                break;    
+const elements = function(arr){
+        if (arr!=0) {
+            console.log(arr);
+            return ;
         }
-        if (guess1=="quit") 
-        {
-            console.log("you quit the game");
-            break;
-        }
-            else
-                {
-                guess1=prompt("wrong guess please enter again");
-            }
-};
+}
 
 
-
-
-
-
-
-
-
+elements(arr);
 
