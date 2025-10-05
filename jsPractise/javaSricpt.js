@@ -1,16 +1,20 @@
-        
-// Qs1. Write a JavaScript function that returns array elements larger than a number.
 
-let arr = [1,2,3,4];
+let str = "abcdabcdefgggh";
 
 
-const elements = function(arr){
-        if (arr!=0) {
-            console.log(arr);
-            return ;
+
+
+function unique(str){
+let ans="";
+    for(let i=0; i<str.length;i++){
+        let cur = str[i];
+        if (ans.indexOf(cur)==-1){
+            ans += cur;
         }
+    }
+    return console.log(ans);
 }
 
+unique(str);
 
-elements(arr);
 
