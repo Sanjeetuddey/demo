@@ -1,20 +1,31 @@
+// Qs3. Write a JavaScript function that accepts a list of country names as input and
+// returns the longest country name as output.
+// Example : country = ["Australia", "Germany", "United States of America"] output :
+// "United States of America"
 
-let str = "abcdabcdefgggh";
+
+let str= ["Australia", "Germany", "United States of America"];
 
 
+function longName(str)
+{
+    let ansIndex=0;
+    for (let i=0; i<str.length; i++) {
 
-
-function unique(str){
-let ans="";
-    for(let i=0; i<str.length;i++){
-        let cur = str[i];
-        if (ans.indexOf(cur)==-1){
-            ans += cur;
+        let curr=str[ansIndex].length;
+        let len=str[i].length;
+        if (len>curr) 
+            {
+           ansIndex=i;
         }
     }
-    return console.log(ans);
+    return str[ansIndex];
 }
 
-unique(str);
+
+console.log(longName(str));
+
+
+
 
 
