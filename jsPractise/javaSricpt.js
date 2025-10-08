@@ -21,7 +21,7 @@ function longName(str)
     }
     return str[ansIndex];
 }
-
+//rrdyttd
 
 console.log(longName(str));
 
