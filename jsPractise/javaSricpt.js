@@ -6,5 +6,7 @@ experienced:"5 years",
 }
 
 
-
+// console.log(nitin.name);
 console.log(nitin);
+
+
