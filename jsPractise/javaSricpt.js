@@ -1,12 +1,14 @@
-console.log("hagaru muskan maravi");
+
 console.log("hagaru muskan maravi");
 
+setTimeout(() => {
+ console.log("hagaru muskan maravi1");   
+},4000);
 
-try{
-    console.log(b);
-}
-catch(e){
-console.log("hagaru hag di muskan");
-}
+
+
+
+console.log("hagaru muskan maravi2");
+
 
 
