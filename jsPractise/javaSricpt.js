@@ -1,5 +1,4 @@
-const sum=(a,b)=>{
-    return a+b;
-} 
 
-console.log(sum(5,10));
+const square = (x) => x * x;
+
+console.log(square(5));
